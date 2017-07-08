@@ -1,0 +1,23 @@
+understand "perform_create" and "get_object" in reviews/views.py [https://teamtreehouse.com/library/django-rest-framework/make-the-rest-framework-work-for-you/overriding-generic-view-methods]
+
+key - 7bc335a8933f88688da9ce7989ead7c4df8a915a
+
+from rest_framework.authtoken.models import Token
+from django.contrib.auth.models import User
+user = User.objects.get(id=1)
+token=Token.objects.create(user=user)
+token.key
+
+
+naiqu key - 82c73cca223c21012e8c98659c00367f3d8ca4f2
+
+* to do
+--> [x] consolidate reviews and classes together
+--> [] get permissions around users
+--> [] create different types of users
+--> [] get thing live on internet
+--> [] postgres instead of mysql
+
+
+* improvements
+--> there should be a general review class, from there classReview, instructorReview can inherit
