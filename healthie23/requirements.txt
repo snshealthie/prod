@@ -13,7 +13,7 @@ idna==2.5
 misaka==2.0.0
 oauthlib==2.0.2
 pycparser==2.14
-Pygments==2.2.0
+Pygments==2.7.4
 python3-openid==3.1.0
 requests==2.18.1
 requests-oauthlib==0.8.0
